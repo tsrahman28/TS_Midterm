@@ -1,0 +1,100 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+A.Data Structures are necessary for designing efficient algorithms. It provides reusability and abstraction.
+
+
+What are the various operations that can be performed on different Data Structures?
+A.IsEmpty, AddBefore, AddAfter, push, pop, ExtractMax and sort.
+
+List out the areas in which data structures are applied extensively?
+A.Data structures, including linked lists for memory allocation, file directory management and file structure trees, as well as process scheduling queues, are used to allow core operating system (OS) resources and functions.
+
+what is an Array?
+A.Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+what is the difference between the Array and ArrayList?
+A.The array is a fixed sized data structure thus, the array always needs to mention the size of the elements. On the other hand, ArrayList is not a fixed sized data structure, thus there is no need to mention the size of the ArrayList especially creating its object.
+
+what is LinkedList?
+A. The linked list class is an ordered collection that contains many objects of the same type. Data in a Linked List is stored in a sequence of containers. The list holds a reference to the first container and each container has a link to the next one in the sequence.
+
+How is an Array different from Linked List?
+A.An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers. Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists
+
+what is queue?
+A.Java Queue represents an ordered list of elements. Java Queue follows FIFO order to insert and remove it's elements. FIFO stands for First In First Out.
+
+what is stack?
+A.In Java, Stack is a class that falls under the Collection framework that extends the Vector class
+
+what is FIFO and LIFO?
+A. FIFO approach is used as an operating system algorithm, which gives every process CPU time in the order they arrive. In computing, LIFO approach is used as a queuing theory that refers to the way items are stored in types of data structures.
+
+what is the order of complexity?
+A.
+
+what is the best case to search an element from an array?
+A.The best case complexity is O(1) when element is first or last element in the array.
+
+what is the worst case to search an element from an array?
+A.The worst-case performance is when the search item appears at the end of the list or not at all.
+
+what is tree in data structure?
+A.tree is a widely used abstract data type that represents a hierarchical tree structure with a set of connected nodes.
+
+
+what is graph in data structure?
+A. graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory within mathematics.
+
+what is the difference between the HashTable and HashMap?
+A.One of the major differences between HashMap and Hashtable is that HashMap is non-synchronized whereas Hashtable is synchronized, which means Hashtable is thread-safe and can be shared between multiple threads but HashMap can not be shared between multiple threads without proper synchronization.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A.RDBMSes store data in the form of tables, with most commercial relational database management systems using Structured Query Language (SQL) to access the database.
+
+How HashMap works in java?
+A.HashMap stores entries into multiple singly linked lists, called buckets or bins. Default number of bins is 16 and it's always power of 2. HashMap uses hashCode() and equals() methods on keys for get and put operations. So HashMap key object should provide good implementation of these methods.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.The ArrayIndexOutOfBoundsException is one of the most common errors in Java. It occurs when a program attempts to access an invalid index in an array i.e. an index that is less than 0, or equal to or greater than the length of the array.
+
+What are the different ways of copying an array into another array?
+A.we can use a for loop and copy elements of one to another one by one.
+  Use the clone method to clone an array.
+  Use arraycopy() method of System class.
+  Use copyOf() or copyOfRange() methods of Arrays class.
+
+What is difference between an array and a linked list?
+A.An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers.
+
+What is DFS and BFS?
+A.The full form of BFS is Breadth-First Search, while the full form of DFS is Depth-First Search. BFS uses a queue to keep track of the next location to visit. whereas DFS uses a stack to keep track of the next location to visit.
+
+What is Recursion?
+A.Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+
+What are linear and non linear data Structures?
+A.In a linear data structure, the data elements connect to each other sequentially. A user can transverse each element through a single run. In a non-linear data structure, the data elements connect to each other hierarchically.
+
+What is Big-(O)-notation?
+A.Big O describes the set of all algorithms that run no worse than a certain speed (it's an upper bound)
+
+Outlined different kind of sorting algorithm with time complexity?
+A.Selection sort.
+  Bubble sort.
+  Insertion sort.
+  Merge sort.
+  Quick sort.
+  Heap sort.
+  Counting sort.
+  Radix sort.
+
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
+
+
