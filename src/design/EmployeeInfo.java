@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo{
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -21,6 +21,7 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
+	static String location;
 	
 	/*
 	 * You must implement the logic for below 2 methods and 
@@ -38,7 +39,11 @@ public class EmployeeInfo {
     public EmployeeInfo(String name, int employeeId){
 		
 	}
-	
+
+	public EmployeeInfo(String name, int employeeId, int calculateSalary){
+
+	}
+
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
 	 * Then it will return the total yearly bonus. So you need to implement the logic.
@@ -71,6 +76,9 @@ public class EmployeeInfo {
         //implement numbers of year from above two dates
 		//Calculate pension
 
+		int endDate =Integer.parseInt(convertedJoiningDate);
+		int startDate = Integer.parseInt(convertedTodaysDate);
+		int numberOfYear = endDate - startDate;
 
 
 		return total;

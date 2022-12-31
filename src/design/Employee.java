@@ -13,7 +13,7 @@ public interface Employee {
 	
 	//employeeName() will return employee name
 	public String employeeName();
-	
+
 	//assignDepartment() will assign employee to departments
     public void assignDepartment();
 	
@@ -22,5 +22,8 @@ public interface Employee {
 	
 	//employee benefit
 	public void benefitLayout();
+
+	//empolyee position
+	public void position();
 
 }
