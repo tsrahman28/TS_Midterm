@@ -39,13 +39,11 @@ public class Numbers {
 
 		//By following above, Continue for rest of the Sorting Algorithm....
 
-
-
-
-
-
-
-
+		//bubble Sort
+		randomize(num, n);
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " nano sec");
 
 		//Come to conclusion about which Sorting Algo is better in given data set.
 
